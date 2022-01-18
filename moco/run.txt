@@ -1,0 +1,4 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 9999 -c test.json
+
+解决中文乱码
+java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.11.0-standalone.jar http -p 9991 -c test.json

@@ -1,0 +1,28 @@
+[
+  {
+    "description": "第一个请求响应",
+    "request": {
+      "uri": "/login",
+      "method": "post",
+      "headers": {
+        "Content-Type":"application/json",
+        "X-Lemonban-Media-Type": "lemonban.v1"
+      },
+      "json": {
+        "phone": "133131111",
+        "pwd": "123456"
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-type":"application/json",
+        "Set-Cookie": "lemon123456"},
+      "json": {
+        "code": 1001,
+        "msg": "请求成功"}
+    }
+    }
+]
+
+
